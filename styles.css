@@ -1,0 +1,52 @@
+img {
+    border-radius: 100px;
+    width: 500px;
+    border:solid 10px;
+    
+}
+body {
+    background-image: url("https://www.thewomenshealth.clinic/wp-content/uploads/2017/03/5-Infinite-White-Studio-Backdrops.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.Title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100px;
+}
+.BestMovie{
+    font-family: 'Parisienne', cursive;
+}
+.BestGame {
+    font-family: 'Press Start 2P', cursive;
+}
+.BestApp {
+    font-family: 'Yellowtail', cursive;
+}
+
+html, body {
+     background-size: 100% 100%;
+  } 
+ 
+ @keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: #6a1b9a;
+    } 
+    100% {
+       background: #bbdefb;
+    } 
+ }
+ .block {
+   width: 100%;
+   height: 100%;
+   animation: color-animation 15s infinite linear alternate;
+}
+p {
+    border: dotted 20px;
+
+}
